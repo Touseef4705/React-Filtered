@@ -62,7 +62,7 @@ function App() {
       </div>
 
 
-      <h1 className='my-2 font-mono text-2xl'>Products Are Availabel : <b className='underline'>{filterProducts.length}</b> </h1>
+      <h1 className='my-2 font-mono text-2xl'>Products Are Available : <b className='underline'>{filterProducts.length}</b> </h1>
 
       {filterProducts.length === 0 ? (
         <div className="products_not_found">
